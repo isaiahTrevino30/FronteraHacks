@@ -20,14 +20,26 @@
 
                 <label for="concern">What is your main concern?</label>
                 <textarea id="concern" name="concern" required></textarea>
+
                 <label for="children">Number of children (if any): </label>
-                <input type="number" >
+                <input type="number" id="children" name = "children" >
+
                 <label for="Salary">What is your yearly salary?</label>
-                <input type="number" required>
+                <input type="number" id="salary" name="salary" required> 
+
                 <label for="MS">What is your marital status (If applicable): </label>
-                <input type="text" name="status" id="status" required>
-                <label for="MSS"> What is your partner's salary (If applicable) </label>
-                <input type="text" name="MSS" id="MSS" required>
+                <select id="status" name="status" required>
+                  <option value = ""> Select </option>
+                  <option value = "single"> Single </option>  
+                  <option value = "married"> Married </option>
+                  <option value = "widowed"> Widowed </option>
+                  <option value = "divorced"> Divorced </option>
+                </select>
+
+
+                <label for="partner salary"> What is your partner's salary (If applicable) </label>
+                <input type="text" name="partner salary " id="partner salary" required>
+
                 <button type="submit">Get Advice</button>
             </form>
 
