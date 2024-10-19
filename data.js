@@ -5,6 +5,7 @@ document.getElementById("situation-form").addEventListener("submit", function(ev
     // Get user input
     const age = document.getElementById("age").value;
     const concern = document.getElementById("concern").value;
+    const children = document.getElementById("children").value;
     let advice = '';
 
     // Determine advice based on user input
