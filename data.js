@@ -24,6 +24,13 @@ document.getElementById("situation-form").addEventListener("submit", function(ev
         advice += " Communication is key; try talking openly with the other person.";
     }
 
+    if (children == 0){
+        advice += " You have more freedom to experiment with the money you have, you're okay to take chances and be adventurous."
+    }
+    else{
+        advice += " The freedom you have is a lot more limited, depending on your income budgeting might be prefered"
+    }
+
     // Show the advice on the page
     document.getElementById("advice").innerText = advice;
     document.getElementById("advice").style.display = "block";
